@@ -1,0 +1,88 @@
+---
+title: "Sample Title"
+subtitle: "Subtitle or Presenter/Date"
+title-slide-attributes: 
+  data-background-color: white
+  data-background-image: _extensions/positslides/assets/backgrounds/sample-title-slide-option-1.png
+  data-background-size: contain
+format:
+  positslides-revealjs: 
+    width: "1600"
+    height: "900"
+---
+
+## Default slide
+
+- Bullet 1
+- Bullet 1
+- Bullet 1
+- Bullet 1
+
+## Slide light
+
+This has `code` with a light background.
+
+A [hyperlink](https://posit.co)
+
+```{r}
+library(ggplot2)
+
+mtcars |> 
+  ggplot(aes(x = disp, y = mpg)) +
+  geom_point()
+```
+
+## Slide dark {background-color="#17212B"}
+
+This has `code` with a dark background.
+
+A [hyperlink](https://posit.co)
+
+
+```{r}
+#| echo: fenced
+#| eval: false
+library(ggplot2)
+
+mtcars |> 
+  ggplot(aes(x = disp, y = mpg)) +
+  geom_point()
+```
+
+## Slide Layout {background-image="_extensions/positslides/assets/backgrounds/toc-light.png" background-size="contain"}
+
+This has `code` with a light background.
+
+A [hyperlink](https://posit.co)
+
+```{r}
+library(ggplot2)
+
+mtcars |> 
+  ggplot(aes(x = disp, y = mpg)) +
+  geom_point()
+```
+
+## {background-image="_extensions/positslides/assets/backgrounds/30-70-dark.png" background-size="contain"}
+
+<h2 style="position: absolute; top: 25px; left: 525px;">Layout image Background</h2>
+
+<br>
+<br>
+
+:::: {.columns}
+
+::: {.column width="35%"}
+&nbsp;
+:::
+
+::: {.column width="65%"}
+- Bullet 1
+- Bullet 1
+- Bullet 1
+- Bullet 1
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+:::
+
+::::
