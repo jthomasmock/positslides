@@ -1,14 +1,10 @@
-# <%= title %> Format
+# positslides
 
 ## Installing
 
-*TODO*: Replace the `<github-organization>` with your GitHub organization.
-
 ```bash
-quarto use template <github-organization>/<%= filesafename %>
+quarto use template jthomasmock/positslides
 ```
-
-This will install the extension and create an example qmd file that you can use as a starting place for your article.
 
 ## Using
 
@@ -20,4 +16,4 @@ This will install the extension and create an example qmd file that you can use 
 
 ## Example
 
-Here is the source code for a minimal sample document: [example.qmd](example.qmd).
+Here is the source code for a minimal sample document: [template.qmd](template.qmd).
