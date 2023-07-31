@@ -3,7 +3,7 @@ title: "Sample Title"
 subtitle: "Subtitle or Presenter/Date"
 title-slide-attributes: 
   data-background-color: white
-  data-background-image: _extensions/positslides/assets/backgrounds/sample-title-slide-option-1.png
+  data-background-image: _extensions/jthomasmock/positslides/assets/backgrounds/sample-title-slide-option-1.png
   data-background-size: contain
 format:
   positslides-revealjs: 
@@ -49,7 +49,7 @@ mtcars |>
   geom_point()
 ```
 
-## Slide Layout {background-image="_extensions/positslides/assets/backgrounds/toc-light.png" background-size="contain"}
+## Slide Layout {background-image="_extensions/jthomasmock/positslides/assets/backgrounds/toc-light.png" background-size="contain"}
 
 This has `code` with a light background.
 
@@ -63,7 +63,7 @@ mtcars |>
   geom_point()
 ```
 
-## {background-image="_extensions/positslides/assets/backgrounds/30-70-dark.png" background-size="contain"}
+## {background-image="_extensions/jthomasmock/positslides/assets/backgrounds/30-70-dark.png" background-size="contain"}
 
 <h2 style="position: absolute; top: 25px; left: 525px;">Layout image Background</h2>
 
